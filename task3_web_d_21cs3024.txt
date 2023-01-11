@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>ordered list</title>
+</head>
+<body>
+  <ol type="I">
+    <li>India
+    <ol type="i"> 
+     <li>hindi</li>
+     <li> telugu</li></oL>
+    </li>
+    <li>USA
+     <ol type="i">
+     <li>English</li>
+     <li>Spanish</li>   
+     </li>
+     </ol>
+    <li>UK 
+    <ol type="i"> 
+    <li>French</li>
+    <li>african</li>
+    </ol> 
+    </li>
+ </ol>
+</body>
+</html>
