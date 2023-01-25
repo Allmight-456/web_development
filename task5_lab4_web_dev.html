@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>this is heading</h1>
+    <button onclick="changeFunc();">Click Me</button>
+    <h1 id="a">Heading Outside the Main.</h1>
+    <main>
+        <h1>welcome inside Main</h1>
+        <p>random text area or very specific texts and Description</p>
+    </main>
+    <script>    changeFunc = function(){
+        var myMain;
+        myMain=document.querySelector('h1');
+        myMain.innerHTML = "<h1>Heading Outside the Main.</h1>";
+        myMain.style.height="50px";
+        myMain.style.color="cyan";
+
+
+        document.body.style.backgroundColor = "yellow";
+      
+    }</script>
+
+</body>
+</html>
